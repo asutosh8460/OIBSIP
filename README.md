@@ -1,3 +1,3 @@
 # OIBSIP
-https://asutosh8460.github.io/OIBSIP/
+https://github.com/asutosh8460/OIBSIP.git
 
