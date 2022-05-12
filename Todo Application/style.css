@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat" ,sans-serif ;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(-45deg, rgb(9, 111, 149), rgb(3, 231, 252), rgb(7, 66, 139), rgb(9, 251, 226)) 0% 0% / 400% 400%;
+    animation: 20s ease 0s infinite normal none running Gradient;
+    animation: Gradient 20s ease infinite;
+    min-height: 100vh;
+    border: 3px solid white;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    width: 350px;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+.txtb{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.txtb::placeholder {
+    color: #fff;
+    
+}
+
+h3{
+    margin: 10px 0;
+}
+
+h4{
+    font-size: 25px;
+}
+.task{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+}
+
+.task i{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.comp .task{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+header{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 80px;
+    color: #fff;
+    text-align: center;
+}
+
